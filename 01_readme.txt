@@ -1,4 +1,10 @@
-01.05.2015
+------------------------------
+Datum:	05.05.2015
+- git Repository hinzugefügt
+
+------------------------------
+Datum:	01.05.2015
+
 Skript ausgelagert
 AudioTags werden im Skript angelegt
 
@@ -17,9 +23,5 @@ Modified:
 - Sprache in Login für Blinde und auf start.html
 - Passwort verschlüsselt
 
-
-
-- Warum sind die Buttons nicht ganz in den Ecken?
 - Wenn Bildschirm kleiner wird und nicht mehr alle Buttons drauf passen, müssten diese evt. auch angepasst werden
-
 
