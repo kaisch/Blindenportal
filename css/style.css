@@ -1,0 +1,167 @@
+body{
+	background-color: #efefef;
+	font-family: Arial, Helvetica, Times;
+}
+
+.ticket-table, .ticket-table th{
+	text-align: center;
+}
+
+#table-div{
+	margin-top: 60px;
+}
+
+#footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 60px;
+	background-color: #1F2026;
+	color: white; 
+	text-align: center;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom:130px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: -130px; /* negative value of footer height */
+  height: 130px;
+  clear:both;
+  padding-top:20px;
+  background-color: #efefef;
+  text-align: center;
+} 
+
+#links{
+	text-align: center;
+}
+
+.footer ul li{
+	display: block;
+}
+
+#logo{
+	height: 40px;
+	padding-right: 5px;
+	padding-top: 5px;
+	vertical-align: middle;
+}
+#logo img{
+	height: inherit;
+	text-align: center;
+}
+
+.frame{
+	height: auto;
+	width: 100%;
+}
+
+#userinfo{
+	height: auto;
+	width: 100%;
+}
+
+#userinfo p{
+	font-size: 30px;
+	text-align: center;
+}
+
+.case-button{
+	color: white;
+	text-shadow: 1px 2px black;
+	height: 250px;
+	width: 400px;
+	margin: 20px;
+	font-size: 60px;
+	border-radius: 25px;
+}
+
+.case-button p{
+	color: white;
+	font-size: 100px;
+}
+
+.hide{ display:none;}
+
+.entrydiv{
+	width: auto;
+	font-size: 120px;
+	text-align: center;
+}
+.entryfield{
+	width: 100%;
+	font-size: 100px;
+}
+#formular{	
+	width:700px;
+	margin-left:auto;
+    margin-right:auto;
+}
+.button{
+	height: 200px;
+	width: 200px;
+}
+
+.fixed{
+	position: fixed;
+}
+.button0{ top: 0; left: 0; }
+.button1{ top: 0; right: 0; }
+.button2{ bottom: 0; left: 0; }
+.button3{ bottom: 0; right: 0; }
+
+.bottomLeft{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.bottomRight{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.circle{
+	display: inline-block;
+	border: 4px solid;
+	width:90px;
+	height:90px;
+	border-radius:100px;
+	color:#fff;
+	line-height:100px;
+	text-align:center;
+	background:transparent;
+}
+
+.icon{ font-size: 40px; }
+
+#news-div{
+	width: auto;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+#news-table{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 25px;
+}
+
+#news-table td { padding-right: 30px; padding-bottom: 20px;}
+
+.green{ background-color: #2ecc71; }
+.green-color{ color: #2ecc71; }
+.red{ background-color: #e74c3c; }
+.red-color{ color: #e74c3c; }
+.yellow{ background-color: #f1c40f; }
+.yellow-color{ color: #f1c40f; }
+.blue{ background-color: #3498db; }
+.blue-color{ color: #3498db; }
+.orange{ background-color: #e67e22; }
+.orange-color{ color: #e67e22; }
+.royalblue{ background-color: #E8EFF4;}
+.white{background-color: white;}

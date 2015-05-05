@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Registrierung für Blinde | BlindenHilfe.com</title>
+<body onload="initial()">
+
+<div id="formular"></div>
+
+<!-- JS -->
+<script type="text/javascript" charset="UTF-8" src="js/input.js"></script>
+<script type="text/javascript" charset="UTF-8" >
+	var lastLink = "start.html";
+	var nextLink = "hallo.html";
+	
+	var arr = new Array(
+		//		divid; inputid; text; passwordBox; audioId; erweiterung bei der Sprachausgabe
+		new Array("Vorname", false, "vorname_", "eingeben"),
+		new Array("Name", false, "name_", "eingeben"),
+		new Array("E-Mail", false, "mail_", "eingeben"),
+		new Array("Benutzername", false, "user_", "eingeben"),
+		new Array("Passwort", true, "passw_", "eingeben"),
+		new Array("Passwort", true, "passw2_", "bestätigen"),
+		new Array("Wohnort", false, "wohn_", "eingeben"),
+		new Array("PLZ", false, "plz_", "eingeben"),
+		new Array("Straße", false, "strasse_", "eingeben"),
+		new Array("Hausnummer", false, "haus_", "eingeben"),
+		new Array("Telefonnummer", false, "tele_", "eingeben"),
+		new Array("Kontoinhaber", false, "konto_", "eingeben"),
+		new Array("IBAN", false, "iban_", "eingeben"),
+		new Array("BIC", false, "bic_", "eingeben")
+	);
+</script>
+
+</body>
+</html>

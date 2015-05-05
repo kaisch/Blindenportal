@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home | BlindenHilfe.com</title>
+	<meta charset="utf-8">
+	<!-- Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	
+	<!-- Jquery UI -->
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	
+	<!-- DOJO -->
+	<script src="//ajax.googleapis.com/ajax/libs/dojo/1.10.3/dojo/dojo.js"></script>
+</head>
+
+<body>
+	<div id="content">
+		<div id="main">
+			<div id="userinfo" class="white">
+				<p>Hallo <strong>Herr Meier</strong>, Sie befinden sich im Dashboard</p>
+			</div>
+			<div id="news-div" class="frame royalblue">
+				<table id="news-table">
+					<tr>
+						<td><div class="circle red-color info-icons"><i class="glyphicon glyphicon-bell icon red-color"></i></div>
+						</td>
+						<td><strong>Max Mustermann</strong> hat Ihren Auftrag "14:00 Uhr Kochen" angenommen.</td>
+					</tr>
+					<tr>
+						<td><div class="circle blue-color info-icons"><i class="glyphicon glyphicon-list-alt icon blue-color"></i></div>
+						</td>
+						<td>Sie haben <strong>4</strong> offene Aufträge.</td>
+					</tr>
+					<tr>
+						<td><div class="circle yellow-color info-icons"><i class="glyphicon glyphicon-envelope icon yellow-color"></i></div>
+						</td>
+						<td>Sie haben <strong>3</strong> neue Mitteilungen.</td>
+					</tr>
+					<tr>
+						<td><div class="circle green-color info-icons"><i class="glyphicon glyphicon-ok icon green-color"></i></div>
+						</td>
+						<td>Sie haben <strong>2</strong> erledigte Aufträge.</td>
+					</tr>
+				</table>
+			</div>
+			<button class="case-button fixed button2 red" onclick="openLink('login.html')"> Logout </button>
+			<button class="case-button fixed button3 blue" onclick="openLink('ticketsVerwalten.html')"> Tickets verwalten</button>
+		</div>
+		
+	</div>
+		
+   <script>
+		function openLink(link){
+			window.location.href = link;
+		}
+   </script>
+</body>
+</html>
